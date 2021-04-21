@@ -1,0 +1,20 @@
+{
+  "name": "clean-markdown-js",
+  "version": "1.0.0",
+  "description": "This action looks for Markdown files in your repository, and for each one:",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gps/clean-markdown-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/gps/clean-markdown-js/issues"
+  },
+  "homepage": "https://github.com/gps/clean-markdown-js#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6"
+  }
+}

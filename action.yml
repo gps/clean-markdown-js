@@ -1,0 +1,16 @@
+name: "Clean Markdown"
+description: "Formats markdown files and adds table of contents"
+author: "Gopal Sharma <gps@surya-soft.com>"
+inputs:
+  commit_message:
+    description: Commit message
+    required: true
+  gh_token:
+    description: GitHub Token
+    required: true
+runs:
+  using: node12
+  main: 'dist/index.js'
+branding:
+  icon: arrow-down
+  color: red
